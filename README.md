@@ -11,12 +11,12 @@ It should be noted that the origins of this dataset are unknown and this user ha
  - columns 'gender', 'hypertension', 'heartDisease', 'everMarried', 'residenceType', and 'stroke' were modified to be a binary classifcation resulting in a 0 or 1 as the value
  - column 'bmi' had 201 records that were null and were filled in with a mean of all bmi values to prevent skewing the data and allowing the model to function properly. 
 
-# Model 1: Testing different model types
+# sTEP 1: Testing different model types
 This was a set of model's built in order to explore various model types to fit onto the data for the most accurate result.
 
 RandomForestClassifier was selected as the winning model.
 
-# Final Model (Model 2)
+# Final Model (Model 1)
 Final model was feature engineered to be as accurate as possible with minimal false negative (not at risk of a stroke) results, however this resulted in an overfitting of false positive (at risk of having a stroke). This was found to be acceptable as over predicting an a risk where none exists is safer than not predicting a risk often enough.
 
 # Results
