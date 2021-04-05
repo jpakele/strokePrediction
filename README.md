@@ -4,22 +4,6 @@ To provide an accurate and safe model to implement on an individual or any list 
 # The Data
 This project uses the a dataset found from [Kaggle.com.](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) The data set was posted by user 'fedesoriano'.
 
-Here is a comprehensive list of the columns in this dataset and their corresponding meanings. The following list is directly copy/pasted from the original user's post.
-
-1) id: unique identifier
-2) gender: "Male", "Female" or "Other"
-3) age: age of the patient
-4) hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
-5) heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
-6) ever_married: "No" or "Yes"
-7) work_type: "children", "Govt_jov", "Never_worked", "Private" or "Self-employed"
-8) Residence_type: "Rural" or "Urban"
-9) avg_glucose_level: average glucose level in blood
-10) bmi: body mass index
-11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
-12) stroke: 1 if the patient had a stroke or 0 if not
-*Note: "Unknown" in smoking_status means that the information is unavailable for this patient
-
 It should be noted that the origins of this dataset are unknown and this user has not shown proof of this dataset coming from a reliable source. However, it should be noted that weather this data is falsified or not, the model should still function properly and accurately should a verified dataset be provided.
 
 # Cleaning the data
